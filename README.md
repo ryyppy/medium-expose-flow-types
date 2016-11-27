@@ -35,5 +35,6 @@ lib
 1 directory, 4 files
 ```
 
-Check out this `package.json` file to see the whole configuration.
-
+Check out `package.json` to see the whole configuration.
+I also committed the resulting `lib` directory in this repository for showcasing
+purposes.

@@ -1,0 +1,9 @@
+// @flow
+
+import { reduce } from 'ramda';
+
+export default function reduceChainPromises<R>(promises: Promise<R>[]): Promise<R> {
+  return reduce((ret, next) => {
+    console.log(next);
+  }, Promise.resolve())(promises);
+}
